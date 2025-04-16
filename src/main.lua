@@ -8,7 +8,10 @@ end
 
 function love.update(dt)
   if start == 0 then
-    if 
+    if love.keyboard.isDown("space") then
+      start = 1
+    end
+  end
 end
 
 function love.draw()
