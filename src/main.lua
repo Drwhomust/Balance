@@ -1,8 +1,6 @@
 function love.load()
   debug = 1
   debugnumber = 1
-
-  love.graphics.setBackgroundColor(39, 132, 2)
 end
 
 function love.update(dt)
@@ -14,6 +12,7 @@ function love.draw()
    love.graphics.print(debugnumber, 400, 300)
   end
 
+  love.graphics.setBackgroundColor(39, 132, 2)
   love.graphics.setBackgroundColor(159, 160, 159)
   love.graphics.rectangle("fill", 0,480, 800,120)
   love.graphics.reset()
