@@ -16,4 +16,5 @@ function love.draw()
 
   love.graphics.setBackgroundColor(159, 160, 159)
   love.graphics.rectangle("fill", 0,480, 800,120)
+  love.graphics.reset()
 end
