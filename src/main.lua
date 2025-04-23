@@ -12,5 +12,5 @@ function love.draw()
    love.graphics.print(debugnumber, 400, 300)
   end
 
-  love.graphics.rectangle("fill", 0,480, 300,120)
+  love.graphics.rectangle("fill", 0,480, 800,120)
 end
