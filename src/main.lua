@@ -8,7 +8,7 @@ function love.update(dt)
 end
 
 function love.draw()
-  if debug == 1
+  if debug == 1 then
    love.graphics.print(debugnumber, 400, 300)
   end
 end
