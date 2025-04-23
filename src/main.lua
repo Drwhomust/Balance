@@ -1,6 +1,11 @@
 function love.load()
   debug = 1
   debugnumber = 1
+
+  epicbox1 = {
+    epicbox1.x = 300
+    epicbox1.y = 300
+  }
 end
 
 function love.update(dt)
