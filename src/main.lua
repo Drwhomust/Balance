@@ -11,4 +11,6 @@ function love.draw()
   if debug == 1 then
    love.graphics.print(debugnumber, 400, 300)
   end
+
+  love.graphics.rectangle("fill", 20,50, 60,120)
 end
