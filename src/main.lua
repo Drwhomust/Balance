@@ -1,21 +1,14 @@
 function love.load()
   debug = 1
-  cat = "Meow"
-  start = 0
-
-  title = love.graphics.newImage("title.png")
+  debugnumber = 1
 end
 
 function love.update(dt)
-  if start == 0 then
-    if love.keyboard.isDown("space") then
-      start = 1
-    end
-  end
+  debugnumber = debugnumber + 1
 end
 
 function love.draw()
-  if start == 0 then
-    love.draw(title, 0, 0)
+  if debug == 1
+   love.graphics.print(debugnumber, 400, 300)
   end
 end
