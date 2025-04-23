@@ -7,7 +7,7 @@ function love.update(dt)
   debugnumber = debugnumber + 1
 end
 
-love.graphics.setBackgroundColor(green)
+love.graphics.setBackgroundColor(39, 132, 2)
 
 function love.draw()
   if debug == 1 then
